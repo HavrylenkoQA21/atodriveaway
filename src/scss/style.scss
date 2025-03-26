@@ -10,8 +10,221 @@
    margin: 0 auto;
 }
 
+/*====================Сonsultation-section=======================*/
 
+.consultation-section {
+}
+.consultation-section__container {
+}
+.consultation-section__body {
+   padding: 40px 40px;
+   display: flex;
+   justify-content: space-between;
+   height: 100%;
+}
+.consultation-section__left {
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   min-height: 100%;
+   flex-direction: column;
+   gap: 0px;
+   padding: 49px 50px 50px 50px;
+}
+.consultation-section__left h3 {
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-size: 37px;
 
-/*===========================================*/
+   /* line-height: 52px; */
+   line-height: 1.4;
+   letter-spacing: -0.03em;
+   text-align: center;
+   color: #000;
+   margin-bottom: 10px;
+   width: 461px;
+}
 
+.consultation-section__left p {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   flex: 1 1 auto;
 
+   /* line-height: 26px; */
+   line-height: 1.65;
+   text-align: center;
+   color: #5e5e5e;
+   margin-bottom: 20px;
+   max-width: 461px;
+}
+
+.consultation-section__left a {
+   border-radius: 800px;
+   padding: 10px 20px;
+   width: 192px;
+   height: 42px;
+   background: #007bd8;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+
+   /* line-height: 22px; */
+   line-height: 1.35;
+   text-align: center;
+   color: #fff;
+}
+.consultation-section__group-button {
+   display: flex;
+   align-self: center;
+}
+.consultation-section__right {
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+   min-height: 100%;
+   gap: 0px;
+   padding: 49px 50px 50px 50px;
+}
+
+.consultation-section__right h3 {
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-size: 37px;
+
+   /* line-height: 52px; */
+   line-height: 1.4;
+   letter-spacing: -0.03em;
+   text-align: center;
+   color: #000;
+   margin-bottom: 10px;
+   width: 461px;
+}
+
+.consultation-section__right p {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   flex: 1 1 auto;
+   /* line-height: 26px; */
+   line-height: 1.65;
+   text-align: center;
+   color: #5e5e5e;
+   margin-bottom: 20px;
+}
+
+.consultation-section__right a {
+   border-radius: 800px;
+   padding: 10px 20px;
+   width: 192px;
+   height: 42px;
+   background: #007bd8;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+
+   /* line-height: 22px; */
+   line-height: 1.35;
+   text-align: center;
+   color: #fff;
+}
+
+/*==================Сlaim-section=========================*/
+
+.claim-section {
+}
+.claim-section__container {
+}
+.claim-section__body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.claim-section__top {
+}
+
+.claim-section__top h2 {
+   font-family: "Inter", sans-serif;
+   font-weight: 800;
+   font-size: 52px;
+
+   /* line-height: 70px; */
+   line-height: 1.34615;
+   text-align: center;
+   color: #424242;
+}
+
+.claim-section__top p {
+   font-family: "Inter", sans-serif;
+   font-weight: 300;
+   font-size: 20px;
+
+   /* line-height: 25px; */
+   line-height: 1.25;
+   text-align: center;
+   color: #424242;
+   margin-bottom: 20px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.claim-section__form-group {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 100%;
+   width: 612px;
+   height: 72px;
+   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+   padding-left: 40px;
+   margin-bottom: 10px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: 23px;
+
+   /* line-height: 64px; */
+   line-height: 2.78261;
+   color: rgba(0, 0, 0, 0.4);
+}
+.claim-section__form-fields-name {
+}
+.claim-section__form-fields-surname {
+}
+.claim-section__form-fields-tel {
+}
+.claim-section__form-fields-mail {
+}
+.claim-section__submit-button {
+   background: #007bd8;
+   color: white;
+   border-radius: 45px;
+   padding: 14px 45px 14px 45px;
+   width: 360px;
+   height: 60px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+
+   /* line-height: 31px; */
+   line-height: 1.55;
+   text-align: center;
+   color: #fff;
+   margin-top: 10px;
+}
