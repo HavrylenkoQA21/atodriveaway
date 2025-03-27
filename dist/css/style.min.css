@@ -282,6 +282,11 @@ main {
   text-align: right;
   color: #fff;
   font-family: Roboto;
+  transition: all 0.3s;
+}
+.menu__list li a:hover {
+  color: #cedae4;
+  transition: all 0.3s;
 }
 
 .header__buttons {
