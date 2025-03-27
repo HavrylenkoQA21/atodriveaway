@@ -6,7 +6,12 @@
 main {
    overflow-x: hidden;
 }
-
+html {
+   scroll-behavior: smooth;
+}
+._lock {
+   overflow: hidden;
+}
 ._container {
    max-width: 1190px;
    padding: 0px 15px;
@@ -253,12 +258,8 @@ main {
    letter-spacing: -0.03em;
    text-align: center;
    color: #000;
-<<<<<<< HEAD
-   margin-bottom: 10px;
-=======
    margin-bottom: 5px;
    white-space: nowrap;
->>>>>>> dev_1
 }
 
 .consultation-section__right p {

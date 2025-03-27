@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+    <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,30 @@
 
 <body>
 	<header class="header">
+   <div class="header__container">
+      <div class="header__body">
+         <a href="/" class="header__logo">
+            <img src="img/header-logo.png" alt="header-logo" />
+         </a>
+         <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+               <span></span>
+            </button>
+            <nav class="menu__body">
+               <ul class="menu__list">
+                  <li><a href="#" class="menu__link">Кто мы?</a></li>
+                  <li><a href="#" class="menu__link">Преимущества</a></li>
+               </ul>
+            </nav>
+         </div>
+         <div class="header__buttons">
+            <a href="javascript:void(0);" class="header__button" id="login">Войти</a>
+            <a href="#claim" class="header__button" id="register">Регистрация</a>
+         </div>
+      </div>
+   </div>
 </header>
+
 	<main>
 		<section class="about-section">
 			<div class="about-section__container _container">
@@ -127,13 +150,34 @@
 
 	</main>
 	<footer class="footer">
+   <div class="register-form">
+      <div class="register-form__body">
+         <h2 class="register-form__title">Заполните форму для регистрации</h2>
+         <div class="register-form__text">*Ваш цифровой адрес не зарегистрирован</div>
+         <form action="#" method="post" class="hero__form-block-form">
+            <div class="hero__form-block-group">
+               <input id="reg-name" type="text" name="name" placeholder="Имя" autocomplete="name" required />
+            </div>
+            <div class="hero__form-block-group">
+               <input id="reg-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname" required />
+            </div>
+            <div class="hero__form-block-group">
+               <input id="reg-tel" type="tel" name="tel" placeholder="Номер" autocomplete="tel" required />
+            </div>
+            <div class="hero__form-block-group">
+               <input id="reg-email" type="email" name="email" placeholder="Email" autocomplete="email" required />
+            </div>
+            <input type="submit" class="hero__form-block-button" />
+         </form>
+      </div>
+   </div>
    <div class="footer__container _container">
       <div class="footer__body">
          <div class="footer__top">
             <div class="footer__top-left">
                <div class="footer__main-images">
                   <div class="footer__main-image">
-                     <img src="img/image_footer.png" alt="">
+                     <img src="img/image_footer.png" alt="" />
                   </div>
                   <div class="footer__main-logos">
                      <div class="footer__main-logo-facebook">
@@ -177,12 +221,13 @@
             </div>
          </div>
          <div class="footer__bottom">
-            <h5>Copyright © 2025 Auto Driveaway | All Rights </h5>
+            <h5>Copyright © 2025 Auto Driveaway | All Rights</h5>
             <h5>Reserved</h5>
          </div>
       </div>
    </div>
 </footer>
+
 	<script src="js/app.min.js"></script>
 </body>
 
