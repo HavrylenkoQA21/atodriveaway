@@ -221,6 +221,10 @@ main {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ._container {
   max-width: 1190px;
   padding: 0px 15px;
@@ -478,6 +482,59 @@ main {
   background: #fff;
   color: #007bd8;
   transition: all 0.3s;
+}
+
+/*===========register form================================*/
+.register-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5764705882);
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+.register-form.show {
+  opacity: 1;
+  visibility: visible;
+  z-index: 100;
+}
+.register-form__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  padding: 65px 40px;
+  width: 100%;
+  max-width: 748px;
+  margin: 0px 15px;
+  height: fit-content;
+  box-shadow: 0px 4px 23px 0 rgba(0, 0, 0, 0.25);
+  background: #e7f9ff;
+}
+.register-form__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 115%;
+  text-align: center;
+  color: #424242;
+  font-family: Inter;
+  margin-bottom: 15px;
+}
+.register-form__text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  color: #ff5252;
+  margin-bottom: 58px;
 }
 
 /*====================Сonsultation-section=======================*/
