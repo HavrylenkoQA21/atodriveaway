@@ -726,7 +726,6 @@ html {
 }
 
 /*====================Footer=======================*/
-/*====================Footer=======================*/
 .footer {
   background: #06264d;
 }
@@ -740,9 +739,6 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 50px 0;
-
-=======
-
 }
 
 .footer__top-left {
@@ -817,13 +813,11 @@ html {
   justify-content: center;
   flex-direction: column;
   gap: 0px;
-
   padding-left: 30px;
 }
 
 .footer__top-center-navigation-menu li {
   padding: 10px 0px;
-
 }
 
 .footer__top-center-navigation-menu a {
@@ -836,16 +830,12 @@ html {
 }
 
 .footer__top-right {
-
   padding-left: 44px;
 }
 
 .footer__top-right-navigation-menu li {
   padding: 10px 0;
-
-  width: 361px;
 }
-
 
 .footer__top-right-navigation-menu a {
   font-family: Roboto;
