@@ -1,76 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-@@include('html/head.html',{
-"title":"Главная"
-})
+   @@include('html/head.html',{ "title":"Главная" })
 
-<body>
-	@@include('html/header.html',{})
-	<main>
-		<section class="consultation-section">
-			<div class="consultation-section__container _container">
-				<div class="consultation-section__body">
-					<div class="consultation-section__left">
-						<h3>Персональна консультация</h3>
-						<p>Вы сможете получить личную консультацию по всем интересующим вопросам с нашим менеджером. Менеджер
-							будет вас сопровождать по всем системе заработка, и личной интересующей информации. (Консультация
-							бесплатна)
-						</p>
-						<a href="#" class="consultation-section__group-button">Оставить заявку
-						<svg class="">
-							 <use xlink:href="@img/sprite.svg#arrow"></use>
-						</svg>
-						</a>
-					</div>
-					<div class="consultation-section__right">
-						<h3>Гарантия</h3>
-						<p>Более 70 лет опыта, 12548 партнера за последние 10 лет, у нас есть ИМЯ которые мы заслужили -
-							потому предлагаем нашим клиентам гарантирования всех вкладов. Все новые клиенты получат бонус при
-							регистрации.
-						</p>
-						<a href="" class="consultation-section__group-button">Оставить заявку
-							<svg class="">
-								<use xlink:href="@img/sprite.svg#arrow"></use>
-						  </svg>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="claim-section">
-			<div class="claim-section__container _container">
-				<div class="claim-section__body">
-					<div class="claim-section__top">
-						<h2>Оставьте заявку</h2>
-						<p>Получите бесплатную консультацию уже сегодня </p>
-					</div>
-					<form action="#" method="post" class="claim-section__form">
-						<div class="claim-section__form-group">
-							<input  id="claim-name" type="text" name="name"
-								placeholder="Имя" autocomplete="name" required>
-
-						</div>
-						<div class="claim-section__form-group">
-							<input  id="claim-surname" type="text" name="surname"
-								placeholder="Фамилия" autocomplete="surname" required>
-						</div>
-						<div class="claim-section__form-group">
-							<input  id="claim-tel" type="tel" name="tel"
-								placeholder="Номер" autocomplete="tel" required>
-						</div>
-						<div class="claim-section__form-group">
-							<input  id="claim-email" type="email" name="email"
-								placeholder="Email" autocomplete="email" required>
-						</div>
-						<input type="submit" class="claim-section__submit-button">
-					</form>
-				</div>
-			</div>
-		</section>
-	
-	</main>
-	@@include('html/footer.html',{})
-	<script src="js/app.min.js"></script>
-</body>
-
+   <body>
+      @@include('html/header.html',{})
+      <main>
+         <section class="hero">
+            <div class="hero__image">
+               <img src="@img/main-bg.png" alt="image" />
+            </div>
+            <div class="hero__container _container">
+               <div class="hero__body">
+                  <div class="hero__content">
+                     <h1 class="hero__title">Инвестируй в TrackDriving</h1>
+                     <p class="hero__subtitle">Узнай как заработать на логистических компаниях пассивно</p>
+                     <a href="#" class="hero__button">Подробнее</a>
+                  </div>
+                  <div class="hero__form-block">
+                     <h2 class="hero__form-block-title">Не потеряйте возможность заработать</h2>
+                     <p class="hero__form-block-subtitle">Получите бесплатную консультацию уже сегодня</p>
+                     <form action="#" method="post" class="hero__form-block-form">
+                        <div class="hero__form-block-group">
+                           <input id="hero-name" type="text" name="name" placeholder="Имя" autocomplete="name" required />
+                        </div>
+                        <div class="hero__form-block-group">
+                           <input id="hero-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname" required />
+                        </div>
+                        <div class="hero__form-block-group">
+                           <input id="hero-tel" type="tel" name="tel" placeholder="Номер" autocomplete="tel" required />
+                        </div>
+                        <div class="hero__form-block-group">
+                           <input id="hero-email" type="email" name="email" placeholder="Email" autocomplete="email" required />
+                        </div>
+                        <input type="submit" class="hero__form-block-button" />
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="consultation-section">
+            <div class="consultation-section__container _container">
+               <div class="consultation-section__body">
+                  <div class="consultation-section__left">
+                     <h3>Персональна консультация</h3>
+                     <p>
+                        Вы сможете получить личную консультацию по всем интересующим вопросам с нашим менеджером. Менеджер будет вас
+                        сопровождать по всем системе заработка, и личной интересующей информации. (Консультация бесплатна)
+                     </p>
+                     <a href="#" class="consultation-section__group-button">
+                        Оставить заявку
+                        <svg class="">
+                           <use xlink:href="@img/sprite.svg#arrow"></use>
+                        </svg>
+                     </a>
+                  </div>
+                  <div class="consultation-section__right">
+                     <h3>Гарантия</h3>
+                     <p>
+                        Более 70 лет опыта, 12548 партнера за последние 10 лет, у нас есть ИМЯ которые мы заслужили - потому предлагаем
+                        нашим клиентам гарантирования всех вкладов. Все новые клиенты получат бонус при регистрации.
+                     </p>
+                     <a href="" class="consultation-section__group-button">
+                        Оставить заявку
+                        <svg class="">
+                           <use xlink:href="@img/sprite.svg#arrow"></use>
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="claim-section">
+            <div class="claim-section__container _container">
+               <div class="claim-section__body">
+                  <div class="claim-section__top">
+                     <h2>Оставьте заявку</h2>
+                     <p>Получите бесплатную консультацию уже сегодня</p>
+                  </div>
+                  <form action="#" method="post" class="claim-section__form">
+                     <div class="claim-section__form-group">
+                        <input id="claim-name" type="text" name="name" placeholder="Имя" autocomplete="name" required />
+                     </div>
+                     <div class="claim-section__form-group">
+                        <input id="claim-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname" required />
+                     </div>
+                     <div class="claim-section__form-group">
+                        <input id="claim-tel" type="tel" name="tel" placeholder="Номер" autocomplete="tel" required />
+                     </div>
+                     <div class="claim-section__form-group">
+                        <input id="claim-email" type="email" name="email" placeholder="Email" autocomplete="email" required />
+                     </div>
+                     <input type="submit" class="claim-section__submit-button" />
+                  </form>
+               </div>
+            </div>
+         </section>
+      </main>
+      @@include('html/footer.html',{})
+      <script src="js/app.min.js"></script>
+   </body>
 </html>
