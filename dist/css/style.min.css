@@ -7,10 +7,10 @@
   font-style: normal;
 }
 @font-face {
-  font-family: Gilroy;
+  font-family: FuturaPT;
   font-display: swap;
-  src: url("../fonts/Gilroy-Extrabold.woff2") format("woff2"), url("../fonts/Gilroy-Extrabold.woff") format("woff");
-  font-weight: 800;
+  src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
@@ -21,10 +21,17 @@
   font-style: normal;
 }
 @font-face {
-  font-family: FuturaPT;
+  font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff");
-  font-weight: 500;
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
 }
 @font-face {
@@ -37,22 +44,15 @@
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
-  font-weight: 400;
+  src: url("../fonts/Gilroy-Extrabold.woff2") format("woff2"), url("../fonts/Gilroy-Extrabold.woff") format("woff");
+  font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: Gilroy;
+  font-family: Inter;
   font-display: swap;
-  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: Roboto;
-  font-display: swap;
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
-  font-weight: 400;
+  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/Inter-ExtraBold.woff") format("woff");
+  font-weight: 800;
   font-style: normal;
 }
 @font-face {
@@ -65,8 +65,50 @@
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.woff") format("woff");
-  font-weight: 300;
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: RobotoSlab;
+  font-display: swap;
+  src: url("../fonts/RobotoSlab-Bold.woff2") format("woff2"), url("../fonts/RobotoSlab-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
@@ -77,17 +119,10 @@
   font-style: normal;
 }
 @font-face {
-  font-family: Inter, sans-serif;
+  font-family: Inter;
   font-display: swap;
-  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Roboto;
-  font-display: swap;
-  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
-  font-weight: 700;
+  src: url("../fonts/Inter-Light.woff2") format("woff2"), url("../fonts/Inter-Light.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
 }
 /*Обнуление*/
@@ -186,11 +221,320 @@ main {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ._container {
   max-width: 1190px;
   padding: 0px 15px;
   width: 100%;
   margin: 0 auto;
+}
+
+/*===========header================================*/
+.header {
+  background: #07274d;
+  border-bottom: 10px solid #fff;
+}
+
+.header__container {
+  display: flex;
+  width: 100%;
+  padding: 0px 15px;
+  max-width: 1325px;
+  margin: 0 auto;
+}
+
+.header__body {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  width: 376px;
+  height: 96px;
+  position: relative;
+}
+.header__logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto;
+}
+
+.menu__list {
+  display: flex;
+  gap: 50px;
+}
+.menu__list li {
+  padding: 12px 10px;
+}
+.menu__list li a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: right;
+  color: #fff;
+  font-family: Roboto;
+  transition: all 0.3s;
+}
+.menu__list li a:hover {
+  color: #cedae4;
+  transition: all 0.3s;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 13px;
+  margin-left: 15px;
+}
+
+.header__button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  height: 52px;
+  color: #007bd8;
+  font-family: Roboto_Condensed;
+  background: #cedae4;
+  border-radius: 1000px;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.header__button:hover {
+  background: #fff;
+  transition: all 0.3s;
+}
+
+/*===========hero================================*/
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.hero__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  max-height: 500px;
+}
+.hero__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero__body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 127px 0px 46px;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.hero__title {
+  font-family: RobotoSlab;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.hero__subtitle {
+  font-family: Roboto_Condensed;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 170%;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.hero__button {
+  border-radius: 100px;
+  padding: 15px 26px 13px 26px;
+  width: 167px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #007bd8;
+  border: 1px solid #007bd8;
+  transition: all 0.3s;
+}
+.hero__button:hover {
+  background: #fff;
+  color: #007bd8;
+  transition: all 0.3s;
+}
+.hero__form-block {
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  padding: 30px 20px;
+  max-width: 748px;
+  width: 100%;
+  box-shadow: 0 4px 23px 0 rgba(0, 0, 0, 0.25);
+  background: #e7f9ff;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.hero__form-block-title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 219%;
+  text-align: center;
+  color: #424242;
+  font-family: Inter;
+}
+.hero__form-block-subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  color: #424242;
+  margin-bottom: 52px;
+  font-family: Inter;
+}
+.hero__form-block-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 518px;
+  justify-content: center;
+  align-items: center;
+}
+.hero__form-block-group {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.hero__form-block-group input {
+  font-family: Inter;
+  display: flex;
+  width: 100%;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  height: 72px;
+  box-shadow: -2px 2px 2px 0 rgba(10, 49, 97, 0.1);
+  background: #fafcff;
+  padding: 0px 20px 0px 40px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 278%;
+}
+.hero__form-block-group input::placeholder {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 278%;
+  color: rgba(0, 0, 0, 0.4);
+}
+.hero__form-block-button {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 155%;
+  text-align: center;
+  color: #fff;
+  border-radius: 45px;
+  padding: 14px 45px 14px 45px;
+  width: 360px;
+  height: 60px;
+  background: #007bd8;
+  margin: 35px 0px 0px;
+  border: 1px solid #007bd8;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.hero__form-block-button:hover {
+  background: #fff;
+  color: #007bd8;
+  transition: all 0.3s;
+}
+
+/*===========register form================================*/
+.register-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5764705882);
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+.register-form.show {
+  opacity: 1;
+  visibility: visible;
+  z-index: 100;
+}
+.register-form__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  padding: 65px 40px;
+  width: 100%;
+  max-width: 748px;
+  margin: 0px 15px;
+  height: fit-content;
+  box-shadow: 0px 4px 23px 0 rgba(0, 0, 0, 0.25);
+  background: #e7f9ff;
+}
+.register-form__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 115%;
+  text-align: center;
+  color: #424242;
+  font-family: Inter;
+  margin-bottom: 15px;
+}
+.register-form__text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  color: #ff5252;
+  margin-bottom: 58px;
 }
 
 /*====================Сonsultation-section=======================*/
