@@ -159,4 +159,125 @@
       <script src="files/jquery-3.7.1.js"></script>
       <script src="js/app.min.js"></script>
    </body>
+<body>
+	@@include('html/header.html',{})
+	<main>
+		<section class="about-section">
+			<div class="about-section__container _container">
+				<div class="about-section__body">
+					<div class="about-section__top">
+						<div class="about-section__top-left">
+							<h2 class="about-section__top-left-title">Кто мы?</h2>
+							<p>Компания Auto Driveaway предоставляет логистические перевозки по всем штатам Америки. <span>Обладая
+								более чем 70-летним опытом работы в сфере транспортировки</span> и перемещения автомобилей и
+								грузовиков, компания Auto Driveaway завоевала репутацию поставщика непревзойденных услуг и
+								обслуживания клиентов.
+								На данный момент доступна <span>возможность инвестирования</span> в компанию, вы сможете получать <span>прибыль
+								каждую неделю от 300%.</span>
+							</p>
+							<a href="" class="about-section__button">Подробнее
+								<svg class="">
+									<use xlink:href="@img/sprite.svg#arrow"></use>
+								</svg>
+							</a>
+						</div>
+						<div class="about-section__top-right">
+							<div class="about-section__top-right-image">
+								<img src="img/about_1.png" alt="about_section_1">
+							</div>
+						</div>
+					</div>
+					<div class="about-section__bottom">
+						<div class="about-section__bottom-left">
+							<div class="about-section__bottom-left-image">
+								<img src="img/about_2.png" alt="about_section_2">
+							</div>
+						</div>
+						<div class="about-section__bottom-right">
+							<h2 class="about-section__bottom-right-title">Преимущества</h2>
+							<ul>
+								<li>Отрасль приносит $500 млрд ежегодно
+									Инвестировав в AutoDriveaway вы можете быть уверены что получите высокую прибыль.
+								</li>
+							</ul>
+							<ul>
+								<li>Безопасность и прозрачность
+									Все небольшие вклады до 2000$ будут застрахованы, вы сможете в режиме реального времени
+									следить за прибылью, и делами компании
+								</li>
+							</ul>
+							<a href="" class="about-section__button">Подробнее
+								<svg class="">
+									<use xlink:href="@img/sprite.svg#arrow"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="consultation-section">
+			<div class="consultation-section__container _container">
+				<div class="consultation-section__body">
+					<div class="consultation-section__left">
+						<h3>Персональна консультация</h3>
+						<p>Вы сможете получить личную консультацию по всем интересующим вопросам с нашим менеджером. Менеджер
+							будет вас сопровождать по всем системе заработка, и личной интересующей информации. (Консультация
+							бесплатна)
+						</p>
+						<a href="#" class="consultation-section__group-button">Оставить заявку
+							<svg class="">
+								<use xlink:href="@img/sprite.svg#arrow"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="consultation-section__right">
+						<h3>Гарантия</h3>
+						<p>Более 70 лет опыта, 12548 партнера за последние 10 лет, у нас есть ИМЯ которые мы заслужили -
+							потому предлагаем нашим клиентам гарантирования всех вкладов. Все новые клиенты получат бонус при
+							регистрации.
+						</p>
+						<a href="" class="consultation-section__group-button">Оставить заявку
+							<svg class="">
+								<use xlink:href="@img/sprite.svg#arrow"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="claim-section">
+			<div class="claim-section__container _container">
+				<div class="claim-section__body">
+					<div class="claim-section__top">
+						<h2>Оставьте заявку</h2>
+						<p>Получите бесплатную консультацию уже сегодня </p>
+					</div>
+					<form action="#" method="post" class="claim-section__form">
+						<div class="claim-section__form-group">
+							<input id="claim-name" type="text" name="name" placeholder="Имя" autocomplete="name" required>
+
+						</div>
+						<div class="claim-section__form-group">
+							<input id="claim-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="surname"
+								required>
+						</div>
+						<div class="claim-section__form-group">
+							<input id="claim-tel" type="tel" name="tel" placeholder="Номер" autocomplete="tel" required>
+						</div>
+						<div class="claim-section__form-group">
+							<input id="claim-email" type="email" name="email" placeholder="Email" autocomplete="email"
+								required>
+						</div>
+						<input type="submit" class="claim-section__submit-button">
+					</form>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	@@include('html/footer.html',{})
+	<script src="js/app.min.js"></script>
+</body>
+
 </html>
