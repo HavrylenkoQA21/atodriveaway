@@ -182,9 +182,8 @@ h6 {
 
 /*--------------------*/
 /*===========tech================================*/
-html {
-  overflow-y: hidden;
-  scroll-behavior: smooth;
+main {
+  overflow-x: hidden;
 }
 
 ._container {
@@ -216,13 +215,13 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 37px;
+  width: 100%;
   /* line-height: 52px; */
   line-height: 1.4;
   letter-spacing: -0.03em;
   text-align: center;
   color: #000;
   margin-bottom: 10px;
-  width: 461px;
 }
 
 .consultation-section__left p {
@@ -235,7 +234,6 @@ html {
   text-align: center;
   color: #5e5e5e;
   margin-bottom: 20px;
-  max-width: 461px;
 }
 
 .consultation-section__left a {
@@ -283,7 +281,6 @@ html {
   text-align: center;
   color: #000;
   margin-bottom: 10px;
-  width: 461px;
 }
 
 .consultation-section__right p {
