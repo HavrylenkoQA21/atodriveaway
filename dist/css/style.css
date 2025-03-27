@@ -193,6 +193,90 @@ main {
   margin: 0 auto;
 }
 
+/*===========header================================*/
+.header {
+  background: #07274d;
+  border-bottom: 10px solid #fff;
+}
+
+.header__container {
+  display: flex;
+  width: 100%;
+  padding: 0px 15px;
+  max-width: 1325px;
+  margin: 0 auto;
+}
+
+.header__body {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  width: 376px;
+  height: 96px;
+  position: relative;
+}
+.header__logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto;
+}
+
+.menu__list {
+  display: flex;
+  gap: 50px;
+}
+.menu__list li {
+  padding: 12px 10px;
+}
+.menu__list li a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: right;
+  color: #fff;
+  font-family: Roboto;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 13px;
+  margin-left: 15px;
+}
+
+.header__button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  height: 52px;
+  color: #007bd8;
+  font-family: Roboto_Condensed;
+  background: #cedae4;
+  border-radius: 1000px;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.header__button:hover {
+  background: #fff;
+  transition: all 0.3s;
+}
+
 /*====================Сonsultation-section=======================*/
 .consultation-section {
   padding: 104px 0px 124px;
