@@ -339,7 +339,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 127px 0px 46px;
+  padding: 127px 0px 46px;
 }
 .hero__content {
   display: flex;
