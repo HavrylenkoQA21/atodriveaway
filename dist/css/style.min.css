@@ -239,29 +239,44 @@ main {
   margin-bottom: 38px;
 }
 
-.consultation-section__left a {
-  border-radius: 800px;
-  padding: 10px 20px;
-  width: 192px;
+.consultation-section__group-button {
+  display: flex;
+  align-self: center;
+  padding: 14px 20px;
+  width: 195px;
   height: 42px;
   background: #007bd8;
+  border: 1px solid #007bd8;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
-  /* line-height: 22px; */
+  border-radius: 800px;
   line-height: 1.35;
   text-align: center;
   color: #fff;
+  transition: all 0.3s;
 }
 
-.consultation-section__group-button {
-  display: flex;
-  align-self: center;
+.consultation-section__group-button svg {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+  margin-left: 8px;
+  transition: all 0.3s;
+}
+
+.consultation-section__group-button:hover {
+  background: #fff;
+  color: #007bd8;
+  transition: all 0.3s;
+}
+.consultation-section__group-button:hover svg {
+  fill: #007bd8;
+  transition: all 0.3s;
 }
 
 .consultation-section__right {
@@ -297,25 +312,6 @@ main {
   text-align: center;
   color: #5e5e5e;
   margin-bottom: 38px;
-}
-
-.consultation-section__right a {
-  border-radius: 800px;
-  padding: 10px 20px;
-  width: 192px;
-  height: 42px;
-  background: #007bd8;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.35;
-  text-align: center;
-  color: #fff;
 }
 
 /*==================Сlaim-section=========================*/
@@ -398,8 +394,15 @@ main {
   text-align: center;
   color: #fff;
   cursor: pointer;
-  border: none;
+  border: 1px solid #007bd8;
   box-shadow: none;
+  transition: all 0.3s;
+}
+
+.claim-section__form input.claim-section__submit-button:hover {
+  background: #fff;
+  color: #007bd8;
+  transition: all 0.3s;
 }
 
 .claim-section__form-group {
