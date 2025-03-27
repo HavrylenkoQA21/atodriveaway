@@ -1,0 +1,82 @@
+[33ma3d70f73[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev_2[m[33m, [m[1;31morigin/dev_2[m[33m)[m HEAD@{0}: checkout: moving from 6c4476291b8c382b48ac01404a562d8f57bc83b6 to dev_2
+[33m6c447629[m HEAD@{1}: checkout: moving from dev_2 to 6c4476291b8c382b48ac01404a562d8f57bc83b6
+[33ma3d70f73[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev_2[m[33m, [m[1;31morigin/dev_2[m[33m)[m HEAD@{2}: checkout: moving from 6c4476291b8c382b48ac01404a562d8f57bc83b6 to dev_2
+[33m6c447629[m HEAD@{3}: checkout: moving from dev_2 to 6c447629
+[33ma3d70f73[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev_2[m[33m, [m[1;31morigin/dev_2[m[33m)[m HEAD@{4}: checkout: moving from 6c4476291b8c382b48ac01404a562d8f57bc83b6 to dev_2
+[33m6c447629[m HEAD@{5}: checkout: moving from a3d70f732a65d2aeee97db18886f9e8385441c5a to 6c447629
+[33ma3d70f73[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev_2[m[33m, [m[1;31morigin/dev_2[m[33m)[m HEAD@{6}: merge dev_2: Fast-forward
+[33m6c447629[m HEAD@{7}: checkout: moving from dev_2 to 6c447629
+[33ma3d70f73[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev_2[m[33m, [m[1;31morigin/dev_2[m[33m)[m HEAD@{8}: commit (merge): new
+[33m60d6aca5[m HEAD@{9}: commit: new
+[33mcc11a199[m HEAD@{10}: reset: moving to cc11a199
+[33m6c447629[m HEAD@{11}: reset: moving to 6c447629
+[33m6c447629[m HEAD@{12}: reset: moving to 6c447629
+[33mabe30442[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{13}: checkout: moving from main to dev_2
+[33mabe30442[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{14}: checkout: moving from dev_2 to main
+[33mabe30442[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{15}: checkout: moving from dev_2 to dev_2
+[33mabe30442[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{16}: pull origin main: Fast-forward
+[33mdfab0c0b[m HEAD@{17}: checkout: moving from main to dev_2
+[33mabe30442[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{18}: commit (merge): my-commit
+[33m397d75e5[m HEAD@{19}: pull: Fast-forward
+[33m7d5b66af[m HEAD@{20}: checkout: moving from dev_2 to main
+[33mdfab0c0b[m HEAD@{21}: commit: my-commit
+[33m959ed004[m HEAD@{22}: commit: my-commit
+[33m6c447629[m HEAD@{23}: pull: Fast-forward
+[33maa1bf2f3[m HEAD@{24}: reset: moving to HEAD~1
+[33m67fd579e[m HEAD@{25}: reset: moving to HEAD~1
+[33m192b1440[m HEAD@{26}: reset: moving to HEAD~1
+[33m94e502ce[m HEAD@{27}: reset: moving to HEAD~1
+[33mc08b0d95[m HEAD@{28}: reset: moving to HEAD~1
+[33m9403e833[m HEAD@{29}: reset: moving to HEAD~1
+[33ma0eeb1fb[m HEAD@{30}: reset: moving to HEAD~1
+[33m5bed7974[m HEAD@{31}: reset: moving to HEAD~1
+[33m6cd25b12[m HEAD@{32}: reset: moving to HEAD~1
+[33mb6237b48[m HEAD@{33}: reset: moving to HEAD~1
+[33m783a89e6[m HEAD@{34}: reset: moving to HEAD~1
+[33m38edf1c7[m HEAD@{35}: reset: moving to HEAD~1
+[33mc1ded583[m HEAD@{36}: reset: moving to HEAD~1
+[33m397d75e5[m HEAD@{37}: reset: moving to HEAD~1
+[33m5ebb8910[m HEAD@{38}: rebase (finish): returning to refs/heads/dev_2
+[33m5ebb8910[m HEAD@{39}: commit: lock
+[33m397d75e5[m HEAD@{40}: rebase (start): checkout origin/main
+[33m6c447629[m HEAD@{41}: checkout: moving from main to dev_2
+[33m7d5b66af[m HEAD@{42}: checkout: moving from dev_2 to main
+[33m6c447629[m HEAD@{43}: commit: lock
+[33mcc11a199[m HEAD@{44}: checkout: moving from main to dev_2
+[33m7d5b66af[m HEAD@{45}: commit (merge): lock
+[33m6a01ebee[m HEAD@{46}: checkout: moving from dev_2 to main
+[33mcc11a199[m HEAD@{47}: commit: _lock
+[33m0be88dbf[m HEAD@{48}: checkout: moving from dev_2 to dev_2
+[33m0be88dbf[m HEAD@{49}: checkout: moving from main to dev_2
+[33m6a01ebee[m HEAD@{50}: commit (merge): header + hero + popup
+[33m86a11398[m HEAD@{51}: commit: header + hero + popup
+[33md16946d1[m HEAD@{52}: checkout: moving from dev_2 to main
+[33m0be88dbf[m HEAD@{53}: commit: header + hero + popup
+[33m61801707[m HEAD@{54}: checkout: moving from main to dev_2
+[33md16946d1[m HEAD@{55}: commit: 1
+[33mc45c681d[m HEAD@{56}: checkout: moving from dev_2 to main
+[33m61801707[m HEAD@{57}: commit: header + hero + popup
+[33m4bb22175[m HEAD@{58}: commit: header + hero
+[33m611a7dcd[m HEAD@{59}: commit: header + hero
+[33mdd5617a6[m HEAD@{60}: commit: header + hero
+[33m06d27fb2[m HEAD@{61}: commit: header + hero
+[33mf7cf8a7b[m HEAD@{62}: commit: commit
+[33m6bafdca6[m HEAD@{63}: commit: commit
+[33mc45c681d[m HEAD@{64}: rebase (finish): returning to refs/heads/dev_2
+[33mc45c681d[m HEAD@{65}: rebase (start): checkout origin/main
+[33m4b38b681[m HEAD@{66}: checkout: moving from main to dev_2
+[33mc45c681d[m HEAD@{67}: commit (merge): claim
+[33mc7de311f[m HEAD@{68}: commit: claim
+[33m67fd579e[m HEAD@{69}: checkout: moving from dev_2 to main
+[33m4b38b681[m HEAD@{70}: commit: claim
+[33md8c78bbc[m HEAD@{71}: commit: commit
+[33m5bed7974[m HEAD@{72}: reset: moving to HEAD~1
+[33md00399f4[m HEAD@{73}: commit: commit
+[33m5bed7974[m HEAD@{74}: rebase (finish): returning to refs/heads/dev_2
+[33m5bed7974[m HEAD@{75}: rebase (start): checkout origin/main
+[33m67fd579e[m HEAD@{76}: checkout: moving from main to dev_2
+[33m67fd579e[m HEAD@{77}: merge dev_2: Fast-forward
+[33maa1bf2f3[m HEAD@{78}: checkout: moving from dev_2 to main
+[33m67fd579e[m HEAD@{79}: commit: container
+[33maa1bf2f3[m HEAD@{80}: checkout: moving from main to dev_2
+[33maa1bf2f3[m HEAD@{81}: clone: from https://github.com/HavrylenkoQA21/atodriveaway.git
