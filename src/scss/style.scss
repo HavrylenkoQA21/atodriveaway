@@ -1,12 +1,10 @@
 @import "fonts";
 @import "nullstyle";
 
-
 /*===========tech================================*/
 
-html {
-   overflow-y: hidden;
-   scroll-behavior: smooth;
+main {
+   overflow: hidden;
 }
 
 ._container {
@@ -19,50 +17,46 @@ html {
 /*====================Сonsultation-section=======================*/
 
 .consultation-section {
+   padding: 104px 0px 124px;
 }
-.consultation-section__container {
-}
+
 .consultation-section__body {
-   padding: 40px 40px;
    display: flex;
    justify-content: space-between;
-   height: 100%;
+   width: 100%;
+   gap: 30px;
 }
 .consultation-section__left {
    display: flex;
-   align-items: flex-start;
    justify-content: center;
+   align-items: center;
    min-height: 100%;
    flex-direction: column;
    gap: 0px;
-   padding: 49px 50px 50px 50px;
+   padding-left: 50px;
+   max-width: 520px;
 }
 .consultation-section__left h3 {
-   font-family: "Roboto", sans-serif;
+   font-family: Roboto;
    font-weight: 700;
    font-size: 37px;
-
-   /* line-height: 52px; */
    line-height: 1.4;
    letter-spacing: -0.03em;
    text-align: center;
    color: #000;
-   margin-bottom: 10px;
-   width: 461px;
+   margin-bottom: 5px;
+   white-space: nowrap;
 }
 
 .consultation-section__left p {
-   font-family: "Roboto", sans-serif;
+   font-family: Roboto;
    font-weight: 400;
    font-size: 16px;
    flex: 1 1 auto;
-
-   /* line-height: 26px; */
    line-height: 1.65;
    text-align: center;
    color: #5e5e5e;
-   margin-bottom: 20px;
-   max-width: 461px;
+   margin-bottom: 38px;
 }
 
 .consultation-section__left a {
@@ -76,7 +70,7 @@ html {
    align-items: center;
    justify-content: center;
    gap: 8px;
-   font-family: "Roboto", sans-serif;
+   font-family: Roboto;
    font-weight: 700;
    font-size: 16px;
 
@@ -91,38 +85,37 @@ html {
 }
 .consultation-section__right {
    display: flex;
-   align-items: flex-start;
    justify-content: center;
-   flex-direction: column;
    min-height: 100%;
+   flex-direction: column;
    gap: 0px;
-   padding: 49px 50px 50px 50px;
+   padding-right: 50px;
+   align-items: center;
+   max-width: 520px;
 }
 
 .consultation-section__right h3 {
-   font-family: "Roboto", sans-serif;
+   font-family: Roboto;
    font-weight: 700;
    font-size: 37px;
-
-   /* line-height: 52px; */
+   width: 100%;
    line-height: 1.4;
    letter-spacing: -0.03em;
    text-align: center;
    color: #000;
-   margin-bottom: 10px;
-   width: 461px;
+   margin-bottom: 5px;
+   white-space: nowrap;
 }
 
 .consultation-section__right p {
-   font-family: "Roboto", sans-serif;
+   font-family: Roboto;
    font-weight: 400;
    font-size: 16px;
    flex: 1 1 auto;
-   /* line-height: 26px; */
    line-height: 1.65;
    text-align: center;
    color: #5e5e5e;
-   margin-bottom: 20px;
+   margin-bottom: 38px;
 }
 
 .consultation-section__right a {
@@ -136,11 +129,9 @@ html {
    align-items: center;
    justify-content: center;
    gap: 8px;
-   font-family: "Roboto", sans-serif;
+   font-family: Roboto;
    font-weight: 700;
    font-size: 16px;
-
-   /* line-height: 22px; */
    line-height: 1.35;
    text-align: center;
    color: #fff;
@@ -149,9 +140,7 @@ html {
 /*==================Сlaim-section=========================*/
 
 .claim-section {
-   margin-bottom: 100px;
-}
-.claim-section__container {
+   padding-bottom: 100px;
 }
 .claim-section__body {
    display: flex;
@@ -159,15 +148,11 @@ html {
    justify-content: center;
    align-items: center;
 }
-.claim-section__top {
-}
 
 .claim-section__top h2 {
-   font-family: "Inter", sans-serif;
+   font-family: Inter, sans-serif;
    font-weight: 800;
    font-size: 52px;
-
-   /* line-height: 70px; */
    line-height: 1.34615;
    text-align: center;
    color: #424242;
@@ -175,41 +160,69 @@ html {
 }
 
 .claim-section__top p {
-   font-family: "Inter", sans-serif;
+   font-family: Inter, sans-serif;
    font-weight: 300;
    font-size: 20px;
-
-   /* line-height: 25px; */
    line-height: 1.25;
    text-align: center;
    color: #424242;
-   margin-bottom: 20px;
+   margin-bottom: 32px;
 }
 
-form {
+.claim-section__form {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   width: 100%;
+   max-width: 612px;
 }
-
-.claim-section__form-group {
+.claim-section__form input {
    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   max-width: 100%;
-   width: 612px;
+   width: 100%;
+   border: 1px solid #e7f9ff;
+   border-radius: 10px;
    height: 72px;
-   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
-   padding-left: 40px;
-   margin-bottom: 10px;
-   font-family: "Inter", sans-serif;
    font-weight: 400;
    font-size: 23px;
-
-   /* line-height: 64px; */
-   line-height: 2.78261;
+   line-height: 278%;
+   font-family: Inter, sans-serif;
+   padding: 0px 20px 0px 40px;
+   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+}
+.claim-section__form input::placeholder {
+   font-family: Inter, sans-serif;
+   font-weight: 400;
+   font-size: 23px;
+   line-height: 278%;
    color: rgba(0, 0, 0, 0.4);
+}
+.claim-section__form input.claim-section__submit-button {
+   background: #007bd8;
+   color: white;
+   border-radius: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+   max-width: 360px;
+   height: 60px;
+   font-family: Inter, sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1.55;
+   text-align: center;
+   color: #fff;
+   cursor: pointer;
+   border: none;
+   box-shadow: none;
+}
+.claim-section__form-group {
+   display: flex;
+   width: 100%;
+}
+.claim-section__form-group:not(:last-child) {
+   margin-bottom: 20px;
 }
 .claim-section__form-fields-name {
 }
@@ -220,21 +233,6 @@ form {
 .claim-section__form-fields-mail {
 }
 .claim-section__submit-button {
-   background: #007bd8;
-   color: white;
-   border-radius: 45px;
-   padding: 14px 45px 14px 45px;
-   width: 360px;
-   height: 60px;
-   font-family: "Inter", sans-serif;
-   font-weight: 400;
-   font-size: 20px;
-
-   /* line-height: 31px; */
-   line-height: 1.55;
-   text-align: center;
-   color: #fff;
-   margin-top: 10px;
 }
 
 /*====================Footer=======================*/
